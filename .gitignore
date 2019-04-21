@@ -1,2 +1,3 @@
 gcpkeys.json
 gcloudpri.pem
+terraform.tfstate*
