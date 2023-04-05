@@ -1,3 +1,4 @@
 gcpkeys.json
 gcloudpri.pem
 terraform.tfstate*
+gcp/gke/.terraform/
