@@ -10,7 +10,7 @@ variable "location" {
   default = "us-central1"
 }
 
-variable "node_count" {
+variable "nodepool_node_count" {
   default = 2
 }
 
