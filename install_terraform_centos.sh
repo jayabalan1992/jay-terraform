@@ -11,7 +11,7 @@ gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring
 sudo yum install wget
 sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
-sudo yum -y install terraform=0.13.6
+sudo yum -y install terraform
 read -p "Email? for github config" git_email
 read -p "user name for github" git_name
 git config --global user.email $git_email
