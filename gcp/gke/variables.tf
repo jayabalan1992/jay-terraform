@@ -11,9 +11,9 @@ variable "location" {
 }
 
 variable "nodepool_node_count" {
-  default = 2
+  default = 1
 }
 
 variable "project" {
-  default = "angelic-hold-382521"
+  default = "centering-keep-391803"
 }
