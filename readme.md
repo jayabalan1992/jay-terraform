@@ -8,3 +8,6 @@ https://console.developers.google.com/apis/api/cloudresourcemanager.googleapis.c
 ## Run the install_terraform script to install everything
 
 
+### Fix the project name in the variables.tf
+
+# resourcemanager.projects.setIamPolicy to the default service account also serviceusage admin role
