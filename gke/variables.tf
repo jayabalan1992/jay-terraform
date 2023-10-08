@@ -7,7 +7,7 @@ variable "gkenode_machine_type" {
 }
 
 variable "location" {
-  default = "us-central1"
+  default = "us-west1-b"
 }
 
 variable "nodepool_node_count" {
@@ -15,5 +15,5 @@ variable "nodepool_node_count" {
 }
 
 variable "project" {
-  default = "centering-keep-391803"
+  default = "civil-hologram-401105"
 }
